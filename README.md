@@ -6,7 +6,8 @@ Stop guessing which local LLM runtime is faster on your hardware. Point `llmbenc
 The code was subsequently manually reviewed, modified, and tested.
 
 
-<img width="1437" height="691" alt="Snímka obrazovky 2026-09-27 150849" src="https://github.com/user-attachments/assets/21543e1a-1da0-4d68-adc3-ab756ff1045c" />
+<img width="1437" height="691" alt="Snímka obrazovky 2026-09-27 155949" src="https://github.com/user-attachments/assets/83468a91-2bba-4611-b4da-f060862950ad" />
+
 
 
 ## Install
