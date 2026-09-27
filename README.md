@@ -1,4 +1,4 @@
-# llmbench-tui
+# llmbench
 
 **Live terminal dashboard that benchmarks Ollama, llama.cpp, vLLM, and LM Studio side by side — in real time.**
 
