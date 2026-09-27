@@ -1,0 +1,53 @@
+[project]
+name = "llmbench-tui"
+version = "0.1.0"
+description = "Live terminal dashboard for benchmarking local LLM runtimes (Ollama, llama.cpp, vLLM, LM Studio) side by side."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Ondrej" }
+]
+keywords = ["llm", "benchmark", "ollama", "llama.cpp", "vllm", "tui", "terminal", "local-llm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: Console :: Curses",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Benchmark",
+    "Topic :: System :: Monitoring",
+]
+dependencies = [
+    "textual>=0.60",
+    "rich>=13.7",
+    "httpx>=0.27",
+    "click>=8.1",
+    "psutil>=5.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "aiohttp>=3.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/ondrej/llmbench-tui"
+Issues = "https://github.com/ondrej/llmbench-tui/issues"
+
+[project.scripts]
+llmbench-tui = "llmbench_tui.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["llmbench_tui*"]
