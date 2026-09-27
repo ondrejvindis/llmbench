@@ -5,7 +5,7 @@ Thanks for considering a contribution — this is a young project and early feed
 ## Setup
 
 ```bash
-git clone https://github.com/ondrej/llmbench-tui.git
+git clone https://github.com/ondrejvindis/llmbench-tui.git
 cd llmbench-tui
 pip install -e ".[dev]"
 pytest

@@ -2,7 +2,8 @@
 
 **Live terminal dashboard that benchmarks Ollama, llama.cpp, vLLM, and LM Studio side by side — in real time.**
 
-Stop guessing which local LLM runtime is faster on your hardware. Point `llmbench-tui` at one or more running servers and watch tokens/sec, time-to-first-token, and host resource usage (CPU/RAM/GPU/VRAM) update live, in one screen.
+Stop guessing which local LLM runtime is faster on your hardware. Point `llmbench-tui` at one or more running servers and watch tokens/sec, time-to-first-token, and host resource usage (CPU/RAM/GPU/VRAM) update live, in one screen.This project was created with  assistance from AI.
+The code was subsequently manually reviewed, modified, and tested.
 
 
 ┌─ ollama/llama3.1:8b ──────────┐  ┌─ llama.cpp/local-7b ──────────┐
@@ -19,7 +20,6 @@ Recent requests
  12:04:01  llama.cpp/local-7b     ok    67.9   0.10   0.73
  ...
 
-CPU: 38.2%  |  RAM: 11.4/32 GB  |  GPU: 71.0%  |  VRAM: 9.8/24 GB
 ```
 
 ## Install
