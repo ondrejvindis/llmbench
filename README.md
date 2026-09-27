@@ -6,21 +6,8 @@ Stop guessing which local LLM runtime is faster on your hardware. Point `llmbenc
 The code was subsequently manually reviewed, modified, and tested.
 
 
-┌─ ollama/llama3.1:8b ──────────┐  ┌─ llama.cpp/local-7b ──────────┐
-│ tok/s: 42.3                   │  │ tok/s: 68.1                   │
-│ avg tok/s: 40.8               │  │ avg tok/s: 65.2               │
-│ TTFT: 0.31s                   │  │ TTFT: 0.09s                   │
-│ avg TTFT: 0.28s               │  │ avg TTFT: 0.11s               │
-│ requests: 14  errors: 0       │  │ requests: 14  errors: 0       │
-│ ▁▂▃▅▆▇█▇▆▅▃▂▁▂▃▄▅▆▇█      │  │ ▅▆▇█▇▆▅▄▃▂▁▂▃▅▆▇█▇▆       │
-└───────────────────────────────┘  └───────────────────────────────┘
+<img width="1437" height="691" alt="Snímka obrazovky 2026-09-27 150849" src="https://github.com/user-attachments/assets/21543e1a-1da0-4d68-adc3-ab756ff1045c" />
 
-Recent requests
- 12:04:01  ollama/llama3.1:8b     ok    41.2   0.29   1.84
- 12:04:01  llama.cpp/local-7b     ok    67.9   0.10   0.73
- ...
-
-```
 
 ## Install
 
