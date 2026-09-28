@@ -19,7 +19,7 @@ pip install llmbench-tui
 Or from source:
 
 ```bash
-git clone https://github.com/ondrej/llmbench-tui.git
+git clone https://github.com/ondrejvindis/llmbench.git
 cd llmbench-tui
 pip install -e .
 ```
