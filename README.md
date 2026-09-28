@@ -29,19 +29,19 @@ pip install -e .
 Benchmark a single running Ollama server:
 
 ```bash
-llmbench_tui -b ollama:llama3.1:8b
+(python) llmbench_tui -b ollama:llama3.1:8b
 ```
 
 Compare Ollama against a llama.cpp server running side by side:
 
 ```bash
-llmbench_tui -b ollama:llama3.1:8b -b llama.cpp:local-7b@http://localhost:8080
+(python) llmbench_tui -b ollama:llama3.1:8b -b llama.cpp:local-7b@http://localhost:8080
 ```
 
 Just check that your backends are reachable, without launching the dashboard:
 
 ```bash
-llmbench_tui -b ollama:llama3.1:8b --check
+(python) llmbench_tui -b ollama:llama3.1:8b --check
 ```
 
 Press **`e`** inside the dashboard at any time to export every collected sample to CSV. Press **`q`** to quit.
